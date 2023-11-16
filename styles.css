@@ -1,0 +1,259 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar{
+    background-color: black; 
+    width: 380px;
+    border-radius: 1rem; /*16px*/
+}
+  
+
+.main-content{
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem; /*16px*/
+    overflow: auto;
+    margin-left: 0.5rem;
+}
+.music-player{
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 90px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+    width: 93%;
+}
+
+.nav-option{
+    
+    line-height: 2.5rem;
+    opacity: 0.75;
+    padding: 0.5rem 0.75rem;
+    
+}
+
+.nav-option:hover{
+    opacity: 1;
+}
+
+.nav-option i {
+    font-size: 1.25rem;
+}
+
+.nav-option a {
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.lib-option {
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    background-color: #121212;
+    border-radius: 1rem;
+    line-height: 2.5rem;
+    height: 100%;
+    width: 93%;
+    
+}
+
+.lib-option a {
+    font-size: 1.25rem;
+    margin-left: 1rem;
+}
+
+.lib-option i {
+    margin-left: 1rem;
+}
+
+#i1 {
+    margin-left: 10rem;
+    
+}
+
+.box1 {
+    margin-top: 2rem;
+    background-color: 	#181818;
+    line-height: 1rem;
+    border-radius: 1rem;
+    height: 8rem;
+}
+.box1 p {
+    margin-left: 1rem;
+    padding-top: 0.8rem;
+    
+    
+}
+
+.createplaylist{
+    margin-left: 1rem;
+    background-color: white;    
+    color: black;
+    width: 125px;
+    height: 25px;
+    border-radius: 1rem;
+    line-height: 5px;
+    
+}
+
+.createplaylist p {
+    padding-left: 2px;
+    font-size: 13px;
+    
+}
+
+
+.box2 {
+    margin-top: 2rem;
+    background-color: #181818;
+    line-height: 1rem;
+    border-radius: 1rem;
+    height: 8rem;
+}
+.box2 p {
+    margin-left: 1rem;
+    padding-top: 0.8rem;
+    
+}
+
+.browsepodcast{
+    margin-left: 1rem;
+    background-color: white;    
+    color: black;
+    width: 137px;
+    height: 25px;
+    border-radius: 1rem;
+    line-height: 5px;
+}
+
+.browsepodcast p {
+    padding-left: 0px;
+    font-size: 13px;
+    
+}
+
+.topbar{
+    border-radius: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    background-color: #181818;
+    height: 4rem;
+
+
+}
+.topbar img{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.main-content .topbar h3 {
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    float: right;
+   
+   
+}
+
+#h33 {
+    margin-right: 0.5rem;
+}
+
+.main-content .topbar a {
+    display: inline-block;
+    margin-top: 0.7rem;
+    margin-right: 3rem;
+    background-color: white;
+    color: black;
+    width: 5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    float: right;
+    border-radius: 1.5rem;
+}
+#spotplaylist{
+    margin-left: 2.4rem;
+    font-family: 'Ubuntu', sans-serif;;
+    font-size: 25px;
+    display: inline-block;
+}
+
+#showall {
+    float: right;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+    font-size: 90%;
+}
+
+.image{
+    width: 14rem;
+    background-color: #181818;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    float: left;
+    border-radius: 1rem;
+}
+
+.image img{
+    margin-top: 3rem;
+    width: 12rem;
+    height: 12rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+
+}
+
+.image h4{
+    text-align: center;
+    font-weight: bolder;
+}
+.image p {
+    text-align: center;
+    opacity: 0.75;
+}
+.player-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.player-icons img{
+    margin-top: 0.8rem;
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-left: 1rem;
+}
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
